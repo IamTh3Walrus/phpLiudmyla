@@ -1,0 +1,33 @@
+{
+  "name": "liudmyla",
+  "version": "1.0.0",
+  "description": "Model Page",
+  "engines": {
+   "node": "6.11.1",
+   "npm": "^5.3.0"
+ },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamTh3Walrus/Liudmyla.git"
+  },
+  "author": "Stephen Doe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamTh3Walrus/Liudmyla/issues"
+  },
+  "homepage": "https://github.com/IamTh3Walrus/Liudmyla#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "kerberos": "0.0.23",
+    "mailgun-js": "^0.11.2",
+    "method-override": "^2.3.9",
+    "mysql": "^2.13.0"
+  }
+}
